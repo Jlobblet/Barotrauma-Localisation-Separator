@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Barotrauma_Localisation_Separator</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="ArgumentParser.fs" />
+        <Compile Include="Separator.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Argu" Version="6.1.1" />
+      <PackageReference Include="FSharp.XExtensions" Version="1.2.0" />
+      <PackageReference Include="FSharpPlus" Version="1.2.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="app.config">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>
