@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Barotrauma-Localisation-Separator", "Barotrauma-Localisation-Separator\Barotrauma-Localisation-Separator.fsproj", "{2B57FD16-1FD2-43A6-893D-FD43B425EAD4}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Barotrauma-Localisation-Separator", "src\Barotrauma-Localisation-Separator\Barotrauma-Localisation-Separator.fsproj", "{2B57FD16-1FD2-43A6-893D-FD43B425EAD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
